@@ -1,0 +1,537 @@
+/*Fonts*/
+
+@font-face {
+	font-family: 'Champagne';
+	src: url(../fonts/Champagne.ttf);
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url(../fonts/FontAwesome.otf);
+}
+
+.fontAwesome{
+   font-family: 'FontAwesome'; 
+}
+
+.fontChampagne{
+	font-family: 'Champagne';
+}
+
+/*End Fonts*/
+
+.masonPhoto {
+	height: 300px;
+	width: 243px;
+	background: url(../images/me.jpg);
+	/*border: solid black 1px;*/
+	display: block;
+	margin: auto;
+}
+
+.masonPhotoTwo {
+	background: url(../images/me2.JPG);
+	/*border: solid black 1px;*/
+	display: block;
+	margin: auto;
+}
+
+.masonLogo {
+	height: 300px;
+	width: 300px;
+	background: url(../images/logo-T.png);
+	/*border: solid black 1px;*/
+	display: block;
+	margin: auto;
+}
+
+.pageOne {
+	min-height: 100vh;
+	width: 100vw;
+	/* background-color: #614051; */
+	background-image: url(../images/b5.jpg);	
+	background-size: cover;
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pageTwo {
+	min-height: 100vh;
+	width: 100vw;
+	/* background-color: #406150; */
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+	/* background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(156,93,112,1) 100%); */
+}
+
+.pageThree {
+	min-height: 100vh;
+	width: 100vw;
+	/* background-color: #722f37; */
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.pageFour {
+	min-height: 100vh;
+	width: 100vw;
+	/* background-color: #2f5972; */
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pageFive {
+	min-height: 100vh;
+	width: 100vw;
+	background-color:#b66a1e;
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pageSix {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #2f726a;
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pageSeven {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #8360a8;
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.fixedTop {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+	
+/*.quoteEm {
+	font-weight: bold;
+	font-size: 1.5em;
+}*/
+
+.titleName {
+
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.titleCenter {
+	/*display: block;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);*/
+    color: #f0ead6;
+    font-size: 5em;
+    font-family: 'Champagne';
+}
+
+.titleCenter2 {
+	/*display: block;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);*/
+    color: #f0ead6;
+    font-size: 10em;
+    font-family: 'FontAwesome';
+}
+.titleQuote {
+	display: block;
+	font-size: .3em;
+	text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.displayBlock {
+	display: block;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.masonTitle {
+    color: #f0ead6;
+    font-size: 3em;
+    font-family: 'Champagne';
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.masonShort {
+    color: #f0ead6;
+    font-size: 1.4em;
+    font-family: 'Champagne';
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.content {
+	display: block;
+	position: relative;
+    transform: translateY(-50%);
+	top: 50%;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.bioText {
+	color: #f0ead6;
+    font-size: 1.5em;
+    font-family: 'Champagne';
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.bioText a {
+	padding: 10px 15px;
+	border-radius: 10px;
+	background-color: #333;
+	color: #f0ead6;
+}
+
+.bioText a:hover {
+	background-color: #3c3c3c;
+	text-decoration: none;
+}
+
+.bioText a:active {
+	background-color: #151515;
+}
+
+.bioText a:focus {
+	text-decoration: none;
+}
+
+.bioText h3 {
+	margin-bottom: 35px;
+}
+
+/*@media (max-width: 1200px) {
+	.content{
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.bioText{font-size: 1.2em}
+}
+
+@media (min-width: 1600px) {
+	.bioText{font-size: 2em}
+}*/
+
+/*Social Media Buttons Start*/
+/*Social colors */
+.navbar-inverse .navbar-nav>li>a.twitterColor:hover {
+	color: #55acee;
+}
+.navbar-inverse .navbar-nav>li>a.linkedColor:hover {
+	color: #0077b5;
+}
+.navbar-inverse .navbar-nav>li>a.twitchColor:hover {
+	color: #6441a5;
+}
+.navbar-inverse .navbar-nav>li>a.youtubeColor:hover {
+	color: #dd5143;
+}
+.navbar-inverse .navbar-nav>li>a.instaColor:hover {
+	color: #3f729b;
+}
+.navbar-inverse .navbar-nav>li>a.paypalColor:hover {
+	color: #136ad5;
+}
+.navbar-inverse .navbar-nav>li>a.blogColor:hover {
+	color: #86b817;
+}
+.navbar-inverse .navbar-nav>li>a.patreonColor:hover {
+	color: #e6461a;
+}
+.navbar-inverse .navbar-nav>li>a.facebookColor:hover {
+	color: #3b5998;
+}
+.navbar-inverse .navbar-nav>li>a.streamColor:hover {
+	color: #8d6cab;
+}
+.navbar-inverse .navbar-nav>li>a.gameColor:hover {
+	color: #8d6cab;
+}
+/*Social Media Buttons End*/
+
+.dropdown-menu {
+	background-color: #222;
+}
+.dropdown-menu>li>a {
+	color: #f0ead6;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+.bold {
+	font-weight: bold;
+}
+.skillCat {
+	color: #f0ead6;
+    /*font-size: 3.5em;
+*/  font-size: 50px;
+    font-family: 'Champagne';
+    letter-spacing: .1em;
+    display: block;
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-weight: bolder;
+    /*text-shadow: 2px 2px #000000 ;*/
+
+    color:#d9d9d9;
+/*background-color:#bababa;*/
+text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.skillTitle {
+	color: #f0ead6;
+    font-size: 2.2em;
+    font-family: 'Champagne';
+    letter-spacing: .1em;
+    display: block;
+    padding-bottom: 10px;
+    padding-top:10px;
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.skillName {
+	color: #f0ead6;
+    font-size: 1.5em;
+    font-family: 'Champagne';
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    display: block;
+    text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.vertical-center {
+  min-height: 100%;  
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+
+}
+
+.container{
+	padding-bottom: 10px;
+}
+
+/*p:first-letter {
+  font-size: 3em;
+}*/
+
+.firstWord {
+	font-size:25px;
+	font-weight: bold;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+.navbar-brand {
+	padding: 4px;
+}
+
+
+/*      Main Page        */
+.masonMainSection {
+	/*width: 70w;*/
+	float: left;
+	/*display: block;
+	position: relative;*/
+	/*border: 1px solid black;*/
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.whatIDo {
+	float: left;
+	/*width: 30vh;
+*/}
+
+.masonMainPicture {
+	/*width: 40vh;*/
+	float: right;
+}
+
+/*.mainContainer {
+	
+}*/
+
+.titleMain {
+	color: #f0ead6;
+    font-size: 3em;
+    font-family: 'Champagne';
+    letter-spacing: .1em;
+    display: block;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+.thingName {
+	color: #f0ead6;
+    font-size: 1.5em;
+    font-family: 'Champagne';
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    display: block;
+}
+
+.masonDoes {
+	color: #f0ead6;
+    font-size: 2.2em;
+    font-family: 'Champagne';
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    display: block;
+}
+
+.mainPage {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #614051;
+/*	padding-top: 35px;*/
+	/*text-align: center;
+	vertical-align: middle;*/
+	/*margin-top: 40px; */
+}
+
+/*.masonLinkSection {
+	width: 30vw;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+}*/
+
+.masonLinks {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/*          End Main Page       */
+
+.navEffect {
+	font-size: 1.3em;
+	font-weight: bold;
+	letter-spacing: .05em;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Champagne';
+	color: #f0ead6;
+	text-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	/*color: #613854;*/
+	/*color: #ad5f7d;*/
+	font-weight: bold;
+}
+
+
+.navbar-inverse .navbar-nav>li>a.homeColor:hover{
+	color:#8f5e77;
+}
+.navbar-inverse .navbar-nav>li>a.aboutColor:hover{
+	color:#5e8f76;
+}
+.navbar-inverse .navbar-nav>li>a.bioColor:hover{
+	color:#a84551;
+}
+.navbar-inverse .navbar-nav>li>a.skillsColor:hover{
+	color:#4583a8;
+}
+
+.navbar-inverse .navbar-nav>li>a.homeColor:active{
+	color:#614051;
+}
+.navbar-inverse .navbar-nav>li>a.aboutColor:active{
+	color:#406150;
+}
+.navbar-inverse .navbar-nav>li>a.bioColor:active{
+	color:#722f37;
+}
+.navbar-inverse .navbar-nav>li>a.skillsColor:active{
+	color:#2f5972;
+}
+
+
+
+
+.navbar-inverse .dropdown-menu>li>a.cdColor:hover {
+	color: #b66a1e;
+}
+.navbar-inverse .dropdown-menu>li>a.fyColor:hover {
+	color: #2f726a;
+}
+.navbar-inverse .dropdown-menu>li>a.cfColor:hover {
+	color: #8360a8;
+}
+
+.navbar-inverse .dropdown-menu>li>a.cdColor:active {
+	color: #744413;
+}
+.navbar-inverse .dropdown-menu>li>a.fyColor:active {
+	color: #193c38;
+}
+.navbar-inverse .dropdown-menu>li>a.cfColor:active {
+	color: #5d4279;
+}
+
+
+.fontTV{
+	font-size: 8em;
+}
+.fa2{
+	font-family: 'FontAwesome';
+}
+
+
+
+
+body#bigscreen #chat-panel-tools a.twitchToolColor:hover {
+    color: #6441a5;
+} 
+
+.grad {
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(156,93,112,1) 100%);
+}
+
+/* body { 
+	background: url(../images/b4.jpg) no-repeat center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  } */
