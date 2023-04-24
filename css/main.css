@@ -20,18 +20,18 @@
 
 /*End Fonts*/
 
-.masonPhoto {
+/* .masonPhoto {
 	height: 300px;
 	width: 243px;
 	background: url(../images/me.jpg);
-	/*border: solid black 1px;*/
+	border: solid black 1px;
 	display: block;
 	margin: auto;
 }
 
 .masonPhotoTwo {
 	background: url(../images/me2.JPG);
-	/*border: solid black 1px;*/
+	border: solid black 1px;
 	display: block;
 	margin: auto;
 }
@@ -40,10 +40,10 @@
 	height: 300px;
 	width: 300px;
 	background: url(../images/logo-T.png);
-	/*border: solid black 1px;*/
+	border: solid black 1px;
 	display: block;
 	margin: auto;
-}
+} */
 
 .pageOne {
 	min-height: 100vh;
