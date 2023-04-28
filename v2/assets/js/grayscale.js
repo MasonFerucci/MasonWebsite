@@ -23,6 +23,7 @@
   //     }
   //   }
 
+  
   var mainNav = document.querySelector('#mainNav');
 
 if (mainNav) {
