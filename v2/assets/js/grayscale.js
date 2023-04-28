@@ -1,27 +1,47 @@
 (function() {
   "use strict"; // Start of use strict
 
+  // var mainNav = document.querySelector('#mainNav');
+
+  // if (mainNav) {
+
+  //   var navbarCollapse = mainNav.querySelector('.navbar-collapse');
+    
+  //   if (navbarCollapse) {
+
+  //     var collapse = new bootstrap.Collapse(navbarCollapse, {
+  //       toggle: false
+  //     });
+      
+  //     var navbarItems = navbarCollapse.querySelectorAll('a');
+      
+  //     // Closes responsive menu when a scroll trigger link is clicked
+  //     for (var item of navbarItems) {
+  //       item.addEventListener('click', function (event) {
+  //         collapse.hide();
+  //       });
+  //     }
+  //   }
+
   var mainNav = document.querySelector('#mainNav');
 
-  if (mainNav) {
+if (mainNav) {
+  var navbarCollapse = mainNav.querySelector('.navbar-collapse');
 
-    var navbarCollapse = mainNav.querySelector('.navbar-collapse');
-    
-    if (navbarCollapse) {
+  if (navbarCollapse) {
+    var collapse = new bootstrap.Collapse(navbarCollapse, {
+      toggle: false
+    });
 
-      var collapse = new bootstrap.Collapse(navbarCollapse, {
-        toggle: false
-      });
-      
-      var navbarItems = navbarCollapse.querySelectorAll('a');
-      
-      // Closes responsive menu when a scroll trigger link is clicked
-      for (var item of navbarItems) {
-        item.addEventListener('click', function (event) {
-          collapse.hide();
-        });
+    // Closes responsive menu when a scroll trigger link is clicked
+    navbarCollapse.addEventListener('click', function (event) {
+      var target = event.target;
+      if (target && (target.getAttribute('href') === '#about' || target.getAttribute('href') === '#projects' || target.getAttribute('href') === '#contact')) {
+        collapse.hide();
       }
-    }
+    });
+  }
+
 
     // Collapse Navbar
     var collapseNavbar = function() {
