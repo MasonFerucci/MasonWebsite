@@ -1,0 +1,58 @@
+.img-circle {
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  text-transform: none;
+}
+
+#mainNav a.fa-twitter:hover {
+  color: #55acee;
+  background-color: transparent;
+}
+
+#mainNav a.fa-instagram:hover {
+  color: #3f729b;
+  background-color: transparent;
+}
+
+#mainNav a.fa-github:hover {
+  color: #c9510c;
+  background-color: transparent;
+}
+
+#mainNav a.fa-linkedin:hover {
+  color: #0077b5;
+  background-color: transparent;
+}
+
+#mainNav a.fa-behance:hover {
+  color: #1769ff;
+  background-color: transparent;
+}
+
+#mainNav a.fa-dribbble:hover {
+  color: #ea4c89;
+  background-color: transparent;
+}
+
+#mainNav a.fa-pinterest:hover {
+  color: #e60023;
+  background-color: transparent;
+}
+
+#mainNav a.fa-youtube:hover {
+  color: #ff0000;
+  background-color: transparent;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
